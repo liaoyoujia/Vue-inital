@@ -1,16 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <div class="ad">3123123</div>
-      <div class="ac"></div>
-      <el-button>默认按钮</el-button>
-      <el-button>默认按钮</el-button>
-      <el-button>默认按钮</el-button>
-      <el-button>默认按钮</el-button>
-      <el-button>默认按钮</el-button>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>

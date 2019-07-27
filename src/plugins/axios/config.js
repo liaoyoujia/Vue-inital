@@ -3,7 +3,7 @@ import axios from 'axios'
 // import router from '@/plugins/router'
 // 创建axios实例
 const instance = axios.create({
-  baseURL: 'http://47.101.162.225:9102/'
+  baseURL: '/'
   // timeout: 60000 // 请求超时时间10秒
 })
 
