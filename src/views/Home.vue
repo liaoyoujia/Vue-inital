@@ -1,14 +1,12 @@
 <template>
   <div class="home">
-    <van-search placeholder="请输入搜索关键词"
-      v-model="value" />
-    <div class="box">
-      312312312312
-      <icon-svg icon-class="test"
-        className="test"></icon-svg>
-    </div>
+    <icon-svg icon-class="test" className="test"></icon-svg>
     <!-- <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <van-button type="default">默认按钮</van-button>
+    <van-button type="primary">主要按钮</van-button>
+    <van-button type="info">信息按钮</van-button>
+
   </div>
 </template>
 
@@ -20,8 +18,13 @@ export default {
   name: 'home',
   data () {
     return {
+      date: '',
+      show: false,
       value: ''
     }
+  },
+  methods: {
+    onConfirm () {}
   },
   components: {
     // HelloWorld

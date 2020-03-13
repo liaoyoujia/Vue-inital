@@ -5,7 +5,7 @@ function resolve (dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  // publicPath: './', // 所有的资源都会被链接为相对路径
+  publicPath: './', // 所有的资源都会被链接为相对路径
   chainWebpack (config) {
     // set svg-sprite-loader
     config.module
