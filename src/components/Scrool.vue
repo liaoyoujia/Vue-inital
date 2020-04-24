@@ -1,16 +1,19 @@
 <template>
-  <div class="scroll-wrapper" ref="scrollWrapper"></div>
+  <div class="scroll-wrapper" ref="scrollWrapper">
+    <slot></slot>
+  </div>
 </template>
 <script>
-import BScroll from 'better-scroll'
+import BScroll from "better-scroll";
 export default {
-  name: 'scroll',
+  name: "scroll",
   props: {
     direction: {
-      validator (value) {
-        return ['vertical', 'horizental'].indexOf(value) !== -1
-      },
-      default: 'vertical'
+      type:String,
+      // validator(value) {
+      //   return ["vertical", "horizental"].indexOf(value) !== -1;
+      // },
+      default: "vertical"
     },
     click: {
       type: Boolean,
@@ -40,61 +43,64 @@ export default {
       default: true
     } // 是否支持向下吸底
   },
-  data () {
+  data() {
     return {
       bScroll: null
-    }
+    };
+  },
+  mounted(){
+    this.initScoll()
   },
   methods: {
-    initScoll () {
-      const { direction, click, bounceTop, bounceBottom } = this.props
+    initScoll() {
+      const { direction, click, bounceTop, bounceBottom } = this;
       this.bScroll = new BScroll(this.$refs.scrollWrapper, {
-        scrollX: direction === 'horizental',
-        scrollY: direction === 'vertical',
+        scrollX: direction === "horizental",
+        scrollY: direction === "vertical",
         probeType: 3,
         click: click,
         bounce: {
           top: bounceTop,
           bottom: bounceBottom
         }
-      })
+      });
     },
-    scroll () {
-      const { onScroll } = this.props
-      if (!this.bScroll || !onScroll) return
-      this.bScroll.on('scroll', scroll => {
-        onScroll(scroll)
-      })
+    scroll() {
+      const { onScroll } = this;
+      if (!this.bScroll || !onScroll) return;
+      this.bScroll.on("scroll", scroll => {
+        onScroll(scroll);
+      });
     },
-    judgeBottom () {
-      const { pullUp } = this.props
-      if (!this.bScroll || !pullUp) return
-      this.bScroll.on('scrollEnd', () => {
+    judgeBottom() {
+      const { pullUp } = this;
+      if (!this.bScroll || !pullUp) return;
+      this.bScroll.on("scrollEnd", () => {
         // 判断是否滑动到了底部
         if (this.bScroll.y <= this.bScroll.maxScrollY + 100) {
-          pullUp()
+          pullUp();
         }
-      })
+      });
     },
-    judgeTop () {
-      const { pullDown } = this.props
-      if (!this.bScroll || !pullDown) return
-      this.bScroll.on('touchEnd', pos => {
+    judgeTop() {
+      const { pullDown } = this;
+      if (!this.bScroll || !pullDown) return;
+      this.bScroll.on("touchEnd", pos => {
         // 判断用户的下拉动作
         if (pos.y > 50) {
-          pullDown()
+          pullDown();
         }
-      })
+      });
     },
-    judgeRefresh () {
-      const { refresh } = this.props
+    judgeRefresh() {
+      const { refresh } = this;
       if (refresh && this.bScroll) {
-        this.bScroll.refresh()
+        this.bScroll.refresh();
       }
     }
   },
   components: {}
-}
+};
 </script>
 <style lang="scss" scope>
 .scroll-wrapper {

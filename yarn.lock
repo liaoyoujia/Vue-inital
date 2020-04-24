@@ -674,6 +674,74 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/core/download/@better-scroll/core-2.0.0-beta.6.tgz#aaa4d0f51e110dafa2f7e1249049d3658d494359"
+  integrity sha1-qqTQ9R4RDa+i9+EkkEnTZY1JQ1k=
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.0-beta.6"
+
+"@better-scroll/mouse-wheel@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/mouse-wheel/download/@better-scroll/mouse-wheel-2.0.0-beta.6.tgz#f0a3bf441d021e1485388b5f28feba24b299b0c2"
+  integrity sha1-8KO/RB0CHhSFOItfKP66JLKZsMI=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/observe-dom@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/observe-dom/download/@better-scroll/observe-dom-2.0.0-beta.6.tgz#5ea4fe47c54b8798a9e733f59addf4b98c27739e"
+  integrity sha1-XqT+R8VLh5ip5zP1mt30uYwnc54=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/pull-down@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/pull-down/download/@better-scroll/pull-down-2.0.0-beta.6.tgz#c446674546c8c9132cbb7b09ca035ee7d9152897"
+  integrity sha1-xEZnRUbIyRMsu3sJygNe59kVKJc=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/pull-up@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/pull-up/download/@better-scroll/pull-up-2.0.0-beta.6.tgz#8c5edbf8d7796dcb1a28db256d43b0a3d918fd05"
+  integrity sha1-jF7b+Nd5bcsaKNslbUOwo9kY/QU=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/scroll-bar@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/scroll-bar/download/@better-scroll/scroll-bar-2.0.0-beta.6.tgz#99b812820db2ca2888527dfd8b514d68ff3dec64"
+  integrity sha1-mbgSgg2yyiiIUn39i1FNaP897GQ=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/shared-utils@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/shared-utils/download/@better-scroll/shared-utils-2.0.0-beta.6.tgz#5534d80bfd230908a1d637ce742f2067545d56cc"
+  integrity sha1-VTTYC/0jCQih1jfOdC8gZ1RdVsw=
+
+"@better-scroll/slide@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/slide/download/@better-scroll/slide-2.0.0-beta.6.tgz#13c9935af79bbf0742673828501e67882fef833b"
+  integrity sha1-E8mTWvebvwdCZzgoUB5niC/vgzs=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/wheel@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/wheel/download/@better-scroll/wheel-2.0.0-beta.6.tgz#cd66694967e798e6148916a5dbee67faae720ca7"
+  integrity sha1-zWZpSWfnmOYUiRal2+5n+q5yDKc=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
+"@better-scroll/zoom@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/@better-scroll/zoom/download/@better-scroll/zoom-2.0.0-beta.6.tgz#4108e282f84a7a039f199fc0f07a78872041cff9"
+  integrity sha1-QQjigvhKegOfGZ/A8Hp4hyBBz/k=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+
 "@hapi/address@2.x.x":
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.0.0.tgz#9f05469c88cb2fd3dcd624776b54ee95c312126a"
@@ -765,10 +833,10 @@
   resolved "https://registry.npm.taobao.org/@types/q/download/@types/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha1-aQoUdbhPKohP0HzXl8APXzE1bqg=
 
-"@vant/icons@1.1.15":
-  version "1.1.15"
-  resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.1.15.tgz#53c51ace21e9992bfeeb2e1ad9094fbf6506d116"
-  integrity sha1-U8UaziHpmSv+6y4a2QlPv2UG0RY=
+"@vant/icons@1.2.1":
+  version "1.2.1"
+  resolved "http://r.cnpmjs.org/@vant/icons/download/@vant/icons-1.2.1.tgz#309fecb97a4989866f045ce676b545c454701c8f"
+  integrity sha1-MJ/suXpJiYZvBFzmdrVFxFRwHI8=
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
@@ -1500,6 +1568,13 @@ aws4@^1.8.0:
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
 
+axios@^0.19.0:
+  version "0.19.2"
+  resolved "http://r.cnpmjs.org/axios/download/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha1-PqNsXYgY0NX4qKl6bTa4bNwAyyc=
+  dependencies:
+    follow-redirects "1.5.10"
+
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.npm.taobao.org/babel-code-frame/download/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -1537,6 +1612,14 @@ babel-plugin-dynamic-import-node@^2.2.0:
   integrity sha1-wK37B9lfSkSV6aqsbsOGxNfCUk4=
   dependencies:
     object.assign "^4.1.0"
+
+babel-plugin-import@^1.13.0:
+  version "1.13.0"
+  resolved "http://r.cnpmjs.org/babel-plugin-import/download/babel-plugin-import-1.13.0.tgz#c532fd533df9db53b47d4d4db3676090fc5c07a5"
+  integrity sha1-xTL9Uz3521O0fU1Ns2dgkPxcB6U=
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
 
 babel-plugin-module-resolver@3.2.0:
   version "3.2.0"
@@ -1583,6 +1666,21 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
+
+better-scroll@^2.0.0-beta.6:
+  version "2.0.0-beta.6"
+  resolved "http://r.cnpmjs.org/better-scroll/download/better-scroll-2.0.0-beta.6.tgz#f3f433aa77ceea8d61371926327d0462c889b660"
+  integrity sha1-8/QzqnfO6o1hNxkmMn0EYsiJtmA=
+  dependencies:
+    "@better-scroll/core" "^2.0.0-beta.6"
+    "@better-scroll/mouse-wheel" "^2.0.0-beta.6"
+    "@better-scroll/observe-dom" "^2.0.0-beta.6"
+    "@better-scroll/pull-down" "^2.0.0-beta.6"
+    "@better-scroll/pull-up" "^2.0.0-beta.6"
+    "@better-scroll/scroll-bar" "^2.0.0-beta.6"
+    "@better-scroll/slide" "^2.0.0-beta.6"
+    "@better-scroll/wheel" "^2.0.0-beta.6"
+    "@better-scroll/zoom" "^2.0.0-beta.6"
 
 bfj@^6.1.1:
   version "6.1.1"
@@ -2695,6 +2793,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "http://r.cnpmjs.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.1.0, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3753,6 +3858,13 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "http://r.cnpmjs.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
+  dependencies:
+    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.7.0"
@@ -5117,6 +5229,11 @@ lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4,
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
 
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "http://r.cnpmjs.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+
 log-symbols@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/log-symbols/download/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
@@ -5665,10 +5782,10 @@ node-releases@^1.1.21:
   dependencies:
     semver "^5.3.0"
 
-node-sass@^4.9.0:
-  version "4.12.0"
-  resolved "https://registry.npm.taobao.org/node-sass/download/node-sass-4.12.0.tgz#0914f531932380114a30cc5fa4fa63233a25f017"
-  integrity sha1-CRT1MZMjgBFKMMxfpPpjIzol8Bc=
+node-sass@^4.13.1:
+  version "4.14.0"
+  resolved "http://r.cnpmjs.org/node-sass/download/node-sass-4.14.0.tgz#a8e9d7720f8e15b4a1072719dcf04006f5648eeb"
+  integrity sha1-qOnXcg+OFbShBycZ3PBABvVkjus=
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -5677,7 +5794,7 @@ node-sass@^4.9.0:
     get-stdin "^4.0.1"
     glob "^7.0.3"
     in-publish "^2.0.0"
-    lodash "^4.17.11"
+    lodash "^4.17.15"
     meow "^3.7.0"
     mkdirp "^0.5.1"
     nan "^2.13.2"
@@ -8501,13 +8618,13 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^2.0.9:
-  version "2.2.16"
-  resolved "https://registry.npm.taobao.org/vant/download/vant-2.2.16.tgz#0d03b4715d291ec3250850aed4bf5e5c1546cdea"
-  integrity sha1-DQO0cV0pHsMlCFCu1L9eXBVGzeo=
+vant@^2.5.5:
+  version "2.6.3"
+  resolved "http://r.cnpmjs.org/vant/download/vant-2.6.3.tgz#3728325fe08fa3b6ab9fa2cb35b018221907bbae"
+  integrity sha1-NygyX+CPo7arn6LLNbAYIhkHu64=
   dependencies:
     "@babel/runtime" "7.x"
-    "@vant/icons" "1.1.15"
+    "@vant/icons" "1.2.1"
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     vue-lazyload "1.2.3"
 
